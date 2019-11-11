@@ -8,6 +8,48 @@ Version: 3.0
 
 /*************** ADD CUSTOM CSS HERE.   ***************/
 
+/*Style Homepage*/
+.page-id-96 .custom-textbox .text .text-inner h2 {
+    color: #00a0d2;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+    font-size: 25px;
+    letter-spacing: 0.25px;
+    font-family: 'Roboto',Helvetica,Arial,sans-serif;
+    line-height: 1.4;
+}
+
+.page-id-96 .custom-textbox .text .text-inner p {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    margin: 0 0 15px 0;
+    font-family: 'Roboto',Helvetica,Arial,sans-serif;
+    line-height: 1.7;
+}
+
+.page-id-96 .custom-textbox .text .text-inner .custom-button {
+    color: #00a0d2;
+    border-width: 1px;
+    padding: 9px 15px;
+    margin: 15px 0 0 0;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.25px;
+    font-family: 'Roboto',Helvetica,Arial,sans-serif;
+}
+
+.page-id-96 .custom-textbox .text .text-inner .custom-button:hover {
+    color: #333;
+    background-color: #00a0d2;
+    border-color: #00a0d2;
+}
+
+.page-id-96 .custom-slider .flickity-page-dots .dot {
+
+}
+
+/*End Style Homepage*/
 
 @media only screen and (max-width: 48em) {
 /*************** ADD MOBILE ONLY CSS HERE  ***************/
