@@ -8,6 +8,200 @@ Version: 3.0
 
 /*************** ADD CUSTOM CSS HERE.   ***************/
 
+/*start footer*/
+
+#footer .footer-2{
+    font-size: 14px;
+    background:#1a1a1a;
+}
+#footer .is-divider{
+    background: #00a0d2;
+    max-width: 80px;
+}
+.img-footer{
+    height: 5px;
+    background-color: #00a0d2;
+    background-image: url("http://localhost/construction/wp-content/uploads/2019/11/footer-strip.png");
+}
+
+#footer .absolute-footer{
+    background: #0e0e0e;
+}
+#footer .footer-1{
+    background: #00a0d2;
+    padding: 0;
+}
+#footer .footer-1 .row .block_widget{
+    margin: 0;
+}
+#footer .slide-footer .slider-style-focus{
+    padding: 0;
+}
+.footer-2 .has-block{
+    color:#999;
+}
+.footer-2 .has-block >ul >li >strong{
+    color:white;
+}
+
+/*end footer*/
+
+/*start giới thiệu*/
+.page-id-274 .margino{
+    margin: 0;
+}
+.introduce .sp1{
+    margin-top: 10px;
+}
+.page-id-274 .introduce{
+    font-size: 14px;
+}
+.page-id-274 .footer-1{
+    display: none;
+}
+.management-service .col:before{
+    border: none;
+}
+.management-service .col .col-inner .row .col:before{
+    border: none;
+}
+.management-service .col .col-inner .row .col:after{
+    border: none;
+}
+.management-service .col .col-inner .row .col .col-inner{
+    padding:0;
+    font-size:14px;
+}
+.management-service .col .col-inner .row .col .col-inner >p >strong{
+    color: #00a0d2;
+    font-size:16px;
+}
+
+/*end giới thiệu*/
+
+/*start đội ngũ của chúng tôi*/
+
+.our-team{
+    background:#f3f3f3;
+}
+.our-team .has-block .col{
+    margin-top:30px;
+}
+.text-dn{
+    color:#323C3f;
+    font-size:30px;
+    font-weight:600;
+    line-height:1;
+}
+
+
+
+.img-our-team{
+    position:relative;
+}
+.img-our-team:before{
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    content:"";
+    left:0;
+    top:0;
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity: 0;
+
+}
+.our-team-row2 .col .col-inner .img{
+    position: relative;
+    overflow: hidden;
+
+}
+.our-team-row2 .col .col-inner{
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.our-team-row2 .col .col-inner:hover {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+.our-team-row2 .col .col-inner:hover .img-our-team:before{
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    z-index: 1;
+    background: -webkit-linear-gradient(top, transparent 3%, rgba(0,0,0,0.38) 59%, rgba(0,0,0,0.65) 100%);
+    opacity: 1;
+}
+.our-team-row2 .col .col-inner > div{
+    margin-top: -10px;
+}
+.our-team-row2 .col .col-inner > div >span{
+    font-size: 14px;
+}
+
+
+/*end đội ngũ của chúng tôi*/
+
+/*start liên hệ*/
+.page-id-280 .footer-1{
+    display: none;
+}
+.page-id-280 #wrapper #main #content{
+    padding-bottom: 0;
+}
+.page-id-280 #wrapper #main #content .row.row-main .large-12.col{
+    padding-bottom: 0;
+}
+.contact-info .col{
+    padding-bottom: 0;
+}
+.contact-info .col .col-inner >p{
+    color:#0e0e0e;
+    font-size:14px;
+    margin-bottom:10px;
+}
+.contact-info .col .col-inner .strong{
+    margin:0;
+    font-size:24px;
+}
+.contact-info .bg-green{
+    margin-top:10px;
+    width:70px;
+    height:3px;
+    background:#00a0d2;
+    margin-bottom:20px;
+}
+.form-contact .contact-name{
+    width: 48%;
+    float: left;
+}
+.form-contact .star{
+    color: #FE2E2E;
+}
+.form-contact .contact-email{
+    width: 48%;
+    float: right;
+}
+/*enđ liên hệ*/
 
 @media only screen and (max-width: 48em) {
 /*************** ADD MOBILE ONLY CSS HERE  ***************/
