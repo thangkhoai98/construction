@@ -201,7 +201,50 @@ Version: 3.0
     width: 48%;
     float: right;
 }
+.form-contact .wpcf7-submit{
+    background-color:#00a0d2;
+}
 /*enđ liên hệ*/
+
+/*start sản phẩm*/
+
+.page-id-276 .footer-1{
+    display: none;
+}
+
+/*end sản phẩm*/
+
+/*start tin tức*/
+
+.page-id-278 .footer-1{
+    display: none;
+}
+.news-cl2 .is-divider{
+    max-width:100%;
+    height:1px;
+}
+.news-cl2 .col-inner .row .col.post-item{
+    padding: 0;
+}
+.news-cl2 .from_the_blog_excerpt{
+    display:none;
+}
+.news-cl2 .box-text.text-left.is-large{
+    padding:0;
+}
+.news-post-fullwidth .box .box-image{
+    float:left;
+}
+.news-post-fullwidth .box.box-normal .box-image{
+    margin-right: 10px;
+}
+.news-post-fullwidth .box-text.text-left .box-text-inner.blog-post-inner{
+    margin-top:-10px;
+}
+.page-id-278 .post-title.is-large:hover{
+    color:#0b97c6;
+}
+/*end tintuwcs*/
 
 @media only screen and (max-width: 48em) {
 /*************** ADD MOBILE ONLY CSS HERE  ***************/
