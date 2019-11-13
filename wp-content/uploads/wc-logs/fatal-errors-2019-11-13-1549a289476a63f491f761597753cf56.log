@@ -1,0 +1,40 @@
+2019-11-13T02:43:48+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function bd_sale_price_html(), 1 passed in C:\xampp\htdocs\construction\wp-includes\class-wp-hook.php on line 288 and exactly 2 expected in C:\xampp\htdocs\construction\wp-content\themes\flatsome-child\functions.php:27
+Stack trace:
+#0 C:\xampp\htdocs\construction\wp-includes\class-wp-hook.php(288): bd_sale_price_html('<del><span clas...')
+#1 C:\xampp\htdocs\construction\wp-includes\plugin.php(208): WP_Hook->apply_filters('<del><span clas...', Array)
+#2 C:\xampp\htdocs\construction\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1767): apply_filters('woocommerce_get...', '<del><span clas...', Object(WC_Product_Simple))
+#3 C:\xampp\htdocs\construction\wp-content\themes\flatsome\woocommerce\content-widget-product.php(40): WC_Product->get_price_html()
+#4 C:\xampp\htdocs\construction\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\construction\wp-content\plugins\woocomm in C:\xampp\htdocs\construction\wp-content\themes\flatsome-child\functions.php on line 27
+
+2019-11-13T02:46:46+00:00 CRITICAL syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE) in C:\xampp\htdocs\construction\wp-content\themes\flatsome-child\functions.php on line 51
+
+2019-11-13T02:47:34+00:00 CRITICAL syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE) in C:\xampp\htdocs\construction\wp-content\themes\flatsome-child\functions.php on line 52
+
+2019-11-13T03:20:08+00:00 CRITICAL Cannot redeclare wc_format_sale_price() (previously declared in C:\xampp\htdocs\construction\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php:1221) in C:\xampp\htdocs\construction\wp-content\themes\flatsome-child\functions.php on line 41
+
+2019-11-13T03:20:23+00:00 CRITICAL Cannot redeclare wc_format_sale_price() (previously declared in C:\xampp\htdocs\construction\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php:1221) in C:\xampp\htdocs\construction\wp-content\themes\flatsome-child\functions.php on line 41
+
+2019-11-13T03:22:08+00:00 CRITICAL Cannot redeclare wc_format_sale_price() (previously declared in C:\xampp\htdocs\construction\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php:1221) in C:\xampp\htdocs\construction\wp-content\themes\flatsome-child\functions.php on line 41
+
+2019-11-13T03:23:24+00:00 CRITICAL Cannot redeclare wc_format_sale_price() (previously declared in C:\xampp\htdocs\construction\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php:1221) in C:\xampp\htdocs\construction\wp-content\themes\flatsome-child\functions.php on line 41
+
+2019-11-13T03:24:08+00:00 CRITICAL Cannot redeclare wc_format_sale_price() (previously declared in C:\xampp\htdocs\construction\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php:1221) in C:\xampp\htdocs\construction\wp-content\themes\flatsome-child\functions.php on line 41
+
+2019-11-13T03:24:31+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_format_sale_pricec(), 1 passed in C:\xampp\htdocs\construction\wp-includes\class-wp-hook.php on line 288 and exactly 2 expected in C:\xampp\htdocs\construction\wp-content\themes\flatsome-child\functions.php:38
+Stack trace:
+#0 C:\xampp\htdocs\construction\wp-includes\class-wp-hook.php(288): wc_format_sale_pricec('<del><span clas...')
+#1 C:\xampp\htdocs\construction\wp-includes\plugin.php(208): WP_Hook->apply_filters('<del><span clas...', Array)
+#2 C:\xampp\htdocs\construction\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php(1223): apply_filters('woocommerce_for...', '<del><span clas...', 200000, 190000)
+#3 C:\xampp\htdocs\construction\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1762): wc_format_sale_price(200000, 190000)
+#4 C:\xampp\htdocs\construction\wp-content\themes\flatsome\woocommerce\content-widget-product.php(40): WC_Product->get_price_html()
+#5 C:\xampp\htdocs\construction\wp-content\plugins\ in C:\xampp\htdocs\construction\wp-content\themes\flatsome-child\functions.php on line 38
+
+2019-11-13T03:24:52+00:00 CRITICAL Cannot redeclare wc_format_sale_price() (previously declared in C:\xampp\htdocs\construction\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php:1221) in C:\xampp\htdocs\construction\wp-content\themes\flatsome-child\functions.php on line 41
+
+2019-11-13T03:56:54+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\construction\wp-content\themes\flatsome-child\functions.php on line 76
+
+2019-11-13T03:56:59+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\construction\wp-content\themes\flatsome-child\functions.php on line 76
+
+2019-11-13T03:57:02+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\construction\wp-content\themes\flatsome-child\functions.php on line 76
+
